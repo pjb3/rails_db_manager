@@ -1,0 +1,7 @@
+Rails Database Manager
+======================
+
+This application provides a web-based interface to manage your database.  The goal is to provide the same kind of functionality that a tool like [Sequel Pro][sequel-pro] or [Querious][querious] provides, but in the browser.  This is still in the very early stages of development.  The way to set this up is as a separate rails application from your actual rails application.  This rails app should have the same `config/database.yml` as the actual app.
+
+[sequel-pro]: http://www.sequelpro.com/
+[querious]: http://www.araelium.com/querious/
